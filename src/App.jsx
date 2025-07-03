@@ -18,7 +18,6 @@ function App() {
         <Hero />
         <Element name="about"><About /></Element>
         <Element name="skills"><Skills /></Element>
-        {/* <Element name="experience"><Experience /></Element> */}
         <Element name="projects"><Projects /></Element>
         <Element name="Education"><Education /></Element>
         <Element name="contact"><Contact /></Element>
