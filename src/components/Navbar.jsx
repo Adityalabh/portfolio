@@ -72,6 +72,7 @@ export default function Navbar() {
             <i className="fa-solid fa-bars" />
           )}
         </button>
+        
       </div>
 
       {/* Mobile Menu with Animation */}

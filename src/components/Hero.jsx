@@ -5,8 +5,7 @@ import "animate.css";
 import "textillate";
 
 export default function Hero() {
-  
-    useEffect(() => {
+  useEffect(() => {
     window.$(".tlt").textillate({
       in: { effect: "fadeInDown", delay: 50, shuffle: true },
       out: { effect: "fadeOutUp", delay: 50, shuffle: true },
@@ -23,10 +22,12 @@ export default function Hero() {
     >
       <h1 className=" font-bold  text-gray-500">Hello, I'm</h1>
       <h1 className="tlt text-5xl font-bold mb-4 ">Aditya Kumar</h1>
-      <p className=" text-2xl font-semibold text-gray-600 mb-8">Software Developer</p>
+      <p className=" text-2xl font-semibold text-gray-600 mb-8">
+        Software Developer
+      </p>
       <div className="flex space-x-4 mb-8">
         <a
-          href="https://drive.google.com/file/d/1bzItBbrXHR_eDTUD7VrlXBCCxAFwHc62/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_gfgzq2tOu1qNlY0PAXsjQJyBLaVmm-h/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 text-black border-2 rounded-lg hover:bg-gray-800 hover:font-semibold transition duration-500 ease-initial hover:text-white"
@@ -34,13 +35,14 @@ export default function Hero() {
           View Resume
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=1bzItBbrXHR_eDTUD7VrlXBCCxAFwHc62"
+          href="https://drive.google.com/uc?export=download&id=1_gfgzq2tOu1qNlY0PAXsjQJyBLaVmm-h"
           download
           className="px-4 py-2 bg-black text-white rounded-lg font-semibold hover:bg-gray-800"
         >
           Download Resume
         </a>
       </div>
+
       <div className="flex space-x-6">
         <a
           href="https://github.com/Adityalabh"
@@ -58,7 +60,6 @@ export default function Hero() {
         >
           <FaLinkedin size={30} />
         </a>
-        
       </div>
     </motion.section>
   );
