@@ -27,7 +27,7 @@ export default function Hero() {
       </p>
       <div className="flex space-x-4 mb-8">
         <a
-          href="https://drive.google.com/file/d/180bbZkImH9B6fuuoOr0r1RQvmPEh0yvG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1f9JbJVx0snjP0Vo8eQ_4pLzFaoXZxyGt/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 text-black border-2 rounded-lg hover:bg-gray-800 hover:font-semibold transition duration-500 ease-initial hover:text-white"
@@ -35,7 +35,7 @@ export default function Hero() {
           View Resume
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=180bbZkImH9B6fuuoOr0r1RQvmPEh0yvG"
+          href="https://drive.google.com/uc?export=download&id=1f9JbJVx0snjP0Vo8eQ_4pLzFaoXZxyGt"
           download
           className="px-4 py-2 bg-black text-white rounded-lg font-semibold hover:bg-gray-800"
         >
